@@ -7,7 +7,6 @@ import { ApolloProvider } from 'react-apollo';
 
 class App extends Component {
     render() {
-        const { posts } = this.state;
 
         return (
             <ApolloProvider client={client}>
